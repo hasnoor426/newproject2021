@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-06T19:34:42Z" name="Default suite" finished-at="2021-02-06T19:34:43Z" duration-ms="1510">
+    <groups>
+    </groups>
+    <test started-at="2021-02-06T19:34:42Z" name="Default test" finished-at="2021-02-06T19:34:43Z" duration-ms="1510">
+      <class name="Academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="StartUp()[pri:0, instance:Academy.E2EProject.ValidateTitle@74e28667]" started-at="2021-02-06T14:34:42Z" name="StartUp" finished-at="2021-02-06T14:34:42Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Resources.base.initializeDriver(base.java:35)
+	at Academy.E2EProject.ValidateTitle.StartUp(ValidateTitle.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.E2EProject.ValidateTitle@74e28667]" started-at="2021-02-06T14:34:43Z" name="basePageNavigation" finished-at="2021-02-06T14:34:43Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateTitle@74e28667]" started-at="2021-02-06T14:34:43Z" name="tearDown" finished-at="2021-02-06T14:34:43Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

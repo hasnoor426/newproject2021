@@ -1,0 +1,169 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 5, Errors: 0, Skipped: 11, Time elapsed: 6.977 s <<< FAILURE! - in TestSuite
+Academy.E2EProject.ValidateNavigationBar.StartUp  Time elapsed: 6.698 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+
+	at Academy.E2EProject.ValidateNavigationBar.StartUp(ValidateNavigationBar.java:24)
+
+Academy.E2EProject.HomePage.StartUp  Time elapsed: 6.704 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+
+	at Academy.E2EProject.HomePage.StartUp(HomePage.java:23)
+
+Academy.E2EProject.ValidatePractice.StartUp  Time elapsed: 6.704 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+
+	at Academy.E2EProject.ValidatePractice.StartUp(ValidatePractice.java:24)
+
+Academy.E2EProject.ValidateContactForm.StartUp  Time elapsed: 6.704 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+
+	at Academy.E2EProject.ValidateContactForm.StartUp(ValidateContactForm.java:27)
+
+Academy.E2EProject.ValidateTitle.StartUp  Time elapsed: 6.705 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 84
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-RUC9O5J', ip: '10.0.0.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00EE87E3+2852835]
+	Ordinal0 [0x00DD5BB1+1727409]
+	Ordinal0 [0x00CAE4B9+517305]
+	Ordinal0 [0x00C40BA0+68512]
+	Ordinal0 [0x00C3D3A0+54176]
+	Ordinal0 [0x00C5D9F7+186871]
+	Ordinal0 [0x00C5D7FD+186365]
+	Ordinal0 [0x00C5B70B+177931]
+	Ordinal0 [0x00C42584+75140]
+	Ordinal0 [0x00C43650+79440]
+	Ordinal0 [0x00C435E9+79337]
+	Ordinal0 [0x00DEAD5C+1813852]
+	GetHandleVerifier [0x0100C616+1075574]
+	GetHandleVerifier [0x0100C367+1074887]
+	GetHandleVerifier [0x01017497+1120247]
+	GetHandleVerifier [0x0100CC16+1077110]
+	Ordinal0 [0x00DE3206+1782278]
+	Ordinal0 [0x00DEC3BB+1819579]
+	Ordinal0 [0x00DEC523+1819939]
+	Ordinal0 [0x00E02B45+1911621]
+	BaseThreadInitThunk [0x7685FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x77D675C4+180]
+
+	at Academy.E2EProject.ValidateTitle.StartUp(ValidateTitle.java:22)
+

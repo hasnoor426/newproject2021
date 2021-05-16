@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.E2EProject.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="ValidatePractice(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateContactForm">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateContactForm -->
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+      <class name="Academy.E2EProject.ValidatePractice">
+        <methods>
+          <include name="validatePracticePage"/>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidatePractice -->
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- ValidatePractice(failed) -->
+  <test parallel="tests" name="ValidateTitle(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateContactForm">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateContactForm -->
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+      <class name="Academy.E2EProject.ValidatePractice">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidatePractice -->
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="StartUp"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- ValidateTitle(failed) -->
+  <test parallel="tests" name="ValidateNavigationBar(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateContactForm">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateContactForm -->
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+      <class name="Academy.E2EProject.ValidatePractice">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidatePractice -->
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- ValidateNavigationBar(failed) -->
+  <test parallel="tests" name="Validate HomePage(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateContactForm">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateContactForm -->
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+      <class name="Academy.E2EProject.ValidatePractice">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidatePractice -->
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="StartUp"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- Validate HomePage(failed) -->
+  <test parallel="tests" name="ValidateContactForm(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateContactForm">
+        <methods>
+          <include name="validateContact"/>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateContactForm -->
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+      <class name="Academy.E2EProject.ValidatePractice">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidatePractice -->
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="StartUp"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- ValidateContactForm(failed) -->
+</suite> <!-- Failed suite [Suite] -->
